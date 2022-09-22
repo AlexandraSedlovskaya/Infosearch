@@ -52,11 +52,12 @@ def main(f, q):
     indx_val = np.argsort(cos_sim, axis=0)
 
     sorted_names = []
-    for i in range(1, 165):
+    for i in range(165):
         indx = np.where(indx_val == i)[0][0]
         sorted_names.append(doc_names[indx])
 
-    print(sorted_names)
+    for i in range(len(sorted_names)):
+        print(i+1, '-', sorted_names[i])
 
 
 if __name__ == "__main__":
