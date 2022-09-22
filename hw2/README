@@ -1,0 +1,22 @@
+В файле processed.json находятся уже предобработанные тексты, которые были получены при выполнении первого задания. 
+Запрос, так же как и тексты, приводится к единому регистру, слова лемматизируются и убираются стоп-слова
+
+Пример запроса - python hw2.py processed.json 'он просто сотрудник'
+
+1 - Friends - 7x23 - The One With Chandler And Monica's Wedding (1).ru.txt
+2 - Friends - 3x19 - The One With The Tiny T-Shirt.ru.txt
+3 - Friends - 5x01 - The One After Ross Says Rachel.ru.txt
+4 - Friends - 1x16 - The One With Two Parts (1).ru.txt
+5 - Friends - 6x25-26 - The One With The Proposal (2).ru.txt
+6 - Friends - 7x07 - The One With Ross's Library Book.ru.txt
+7 - Friends - 5x10 - The One With The Inappropriate Sister.ru.txt
+8 - Friends - 6x24 - The One With The Proposal (1).ru.txt
+9 - Friends - 2x08 - The One With The List.ru.txt
+10 - Friends - 3x13 - The One Where Monica And Richard Are Just Friends.ru.txt
+.
+.
+.
+162 - Friends - 1x09 - The One Where Underdog Gets Away.ru.txt
+163 - Friends - 2x05 - The One With Five Steaks And An Eggplant.ru.txt
+164 - Friends - 2x01 - The One With Ross's New Girlfriend.ru.txt
+165 - Friends - 4x01 - The One With The Jellyfish.Tv.ru.txt
